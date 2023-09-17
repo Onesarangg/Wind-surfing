@@ -1,0 +1,1236 @@
+body{
+    margin: 0 auto;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    width: 100%;
+}
+.rl{
+    position: relative;
+}
+.boxmain{
+    width: 100%;
+    min-height: 1150px;
+}
+.boxtren{
+    width: 100%;
+    min-height: 450px;
+    position: absolute;
+    z-index: 1;
+}
+.boxduoi{
+    width: 100%;
+    min-height: 750px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 52%;
+}
+.boxgiua{
+    width: 60%;
+    margin-left: 20%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 26%;
+    min-height: 400px;
+    background-color: white;
+}
+
+.demo3{
+    background-image: url(../anh/12KZUhkhX1FPwb0x9V8gITqY7h5Tj2A4fEB9GaXT.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.menu{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.demo1{
+    margin-top: 25%;
+    min-height: 400px;
+    background-color: white;
+}
+.boxcenter1{
+    width: 65%;
+    margin-left: 17.5%;
+    min-height: 300px;
+    position: relative;
+}
+.demo2{
+    min-height: 500px;
+    background-color: #00b0ff;
+    padding: 2% 0px;
+    position: relative;
+}
+.mttt{
+    padding: 3% 0%;
+}
+.boxcenter2{
+    width: 70%;
+    min-height: 350px;
+    margin-left: 15%;
+}
+.boxfinal{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+.cuoi{
+    width: 100%;
+    min-height: 250px;
+    margin-top: 30%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+}
+.instar{
+    width: 35%;
+    min-height: 450px;
+    margin-top: 5%;
+    margin-left: 17.5%;
+    position: absolute;
+    z-index: 2;
+}
+.fa{
+    width: 22%;
+    min-height: 200px;
+    margin-top: 11%;
+    margin-left: 58%;
+    background-color: #e5e5e5;
+    position: absolute;
+    z-index: 2;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    font-size: 2vw;
+    font-weight: bolder;
+    margin-top: 0.5%;
+}
+.logo a{
+    text-decoration: none;
+}
+.menu1{
+    width: 60%;
+    float: left;
+    color: lavender;
+}
+.menu1 ul{
+    list-style: none;
+}
+.menu1 ul li{
+    font-weight: bolder;
+    float: left; 
+    position: relative;
+    padding: 5px 0px;
+    margin-left: 10%;
+}
+.menu1 ul li:hover::after{
+    content: ' ';
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 1.5px #00b0ff solid;
+}
+.menu1 ul li a:hover{
+    color: #00b0ff;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.social1{
+    width: 20%;
+    float: right;
+}
+.tron{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 2%;
+    position: relative;
+    font-size: 1.2vw;
+}
+.mtt{
+    float: right;
+    margin-left: 10%;
+}
+.face{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 30%;
+}
+.instargam{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 28%;
+}
+.tt{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 24%;
+}
+.tron:hover{
+    background-color: rgb(46, 44, 44);
+    color: white;
+    transition: 1s;
+}
+.rd{
+    width: 100%;
+    height: 60%;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    background-image: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+    z-index: 1;
+}
+.text{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    float: left;
+    text-align: center;
+    font-weight: bolder;  
+    color: rgb(24, 11, 95);
+    position: absolute;
+    z-index: 2;
+}
+span{
+    font-family: 'Allura', cursive;
+    font-size: 10vw;
+    color: yellow;
+}
+.gachngang{
+    font-size: 2vw;
+    line-height: 1%;
+    font-family: 'Pacifico', cursive;
+}
+.gachngang::before{
+    content: ' ';
+    width: 8%;
+    position: absolute;
+    left: 27%;
+    bottom: 2%;
+    border: 1px white solid;
+}
+.gachngang::after{
+    content: ' ';
+    width: 8%;
+    position: absolute;
+    right: 27%;
+    bottom: 2%;
+    border: 1px white solid;
+}
+.tamgiac {
+    width: 0;
+    height: 0;
+    border-top: 350px solid #00b0ff;
+    border-right: 350px solid transparent;
+    position: absolute;
+    z-index: 1;
+}
+.rl{
+    width: 100%;
+    position: relative;
+}
+.chu{
+    width: 11%;
+    float: right;
+    right: -4%;
+    position: absolute;
+    z-index: 1;
+}
+.chu img{
+    width: 75%;
+    position: absolute;
+}
+.next{
+    width: 60%;
+    min-height: 20px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 2;
+    float: right;
+    right: 10%;
+    margin-top: 35%;
+    padding-top: 7%;
+    font-size: 1vw;
+    font-weight: normal;
+}
+.left{
+    padding: 0 12%;
+    color: white;
+}
+.right{
+    padding: 0 10%;
+    color: white;
+}
+.left:hover{
+    color: rgb(73, 73, 73);
+}
+.right:hover{
+    color: rgb(73, 73, 73);
+}
+.tren{
+    float: left;
+    width: 100%;
+    padding: 5% 7%;
+    position: absolute;
+    z-index: 3;
+}
+.fl{
+    width: 40%;
+    float: left;
+}
+.anhlon{
+    width: 80%;
+}
+.anhlon img{
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+}
+.chu1{
+    font-size: 1.7vw;
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+    color: #002a4c;
+}
+.anhonho{
+    width: 5%;
+    margin-left: 29%;
+    margin-top: 5%;
+    position: absolute;
+    z-index: 4;
+}
+.bencanh{
+    width: 40%;
+    float: right;
+    margin-left: 40%;
+    position: absolute;
+}
+.chude{
+    min-height: 50px;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    width: 90%;
+}
+.danhgia{
+    min-height: 20px;
+    width: 40%;
+    font-size: 0.7vw;
+    color: black;
+}
+.danhgia i:hover{
+    color: yellow;
+}
+.muc{
+    width: 100%;
+    float: left;
+    min-height: 50px;
+}
+.muc ul{
+    font-weight: bolder;
+    margin-left: -15%;
+}
+.muc ul li{
+    display: inline; 
+    position: relative;
+    margin-left: 5%;
+}
+.muc ul li:hover::after{
+    content: ' ';
+    width: 100%;
+    top: 120%;
+    left: 0;
+    position: absolute;
+    border: 1.5px #00b0ff solid;
+}
+.muc hr{
+    margin-top: -2.5%;
+}
+.chitiet{
+    width: 100%;
+    color: rgb(148, 145, 145);
+    min-height: 110px;
+}
+.gia{
+    width: 30%;
+    float: left;
+    font-size: 1.3vw;
+    font-weight: bolder;
+    padding: 0 2%;
+    min-height: 40px;
+}
+.gia a{
+    position: absolute;
+    z-index: 1;
+    padding: 3% 6%;
+}
+.nut{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    min-height: 40px;
+    background-color: #00b0ff;
+    color: white;
+    transition: 1s;
+}
+.tgnho{
+    width: 0;
+    height: 0;
+    border-top: 40px solid yellow;
+    border-right: 50px solid transparent;
+    position: absolute;
+    z-index: 1;
+}
+.nut a{
+    position: absolute;
+    z-index: 2;
+    padding: 3.5% 6%;
+    font-weight: bolder;
+    font-size: 1vw;
+    
+}
+.nut:hover{
+    color: rgb(73, 73, 73);
+    background-color: yellow;
+}
+.view{
+    float: left;
+    min-height: 40px;
+    font-weight: bolder;  
+    width: 60%;
+}
+.view a{
+    position: absolute;
+    z-index: 1;
+    padding: 7% 0;
+    color: #00b0ff;
+    text-decoration: underline;
+}
+.view a:hover{
+    text-decoration: none;
+}
+.onho{
+    width: 80%;
+    min-height: 40px;
+    background-color: white;
+    border: 2px gray solid;
+    transition: 0.5s;
+}
+.mt{
+    margin-top: 10%;
+}
+.onho img{
+    width: 100%;
+    height: 40px;
+    object-fit: contain;
+}
+.onho:hover{
+    border: 2px #00b0ff solid;
+}
+.anh2{
+    min-height: 450px;
+    width: 100%;
+    position: relative;
+}
+.demo4{
+    background-image: url(../anh/surfing-1208255_1920-1200x800.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nen{
+    min-height: 600px;
+    background-color: #00b0ff;
+}
+.aboutus{
+    width: 55%;
+    min-height: 100px;
+    margin-top: -10%;
+    margin-left: -5%;
+    position: absolute;
+    z-index: 1;
+}
+.aboutus img{
+    width: 100%;
+    margin-left: 2%;
+}
+.thongtin{
+    width: calc(50% - 14%);
+    text-align: right;
+    min-height: 300px;
+    margin-top: -4%;
+    padding: 0 7%;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+}
+.thongtin::after{
+    content: ' ';
+    width: 0.3%;
+    position: absolute;
+    min-height: 100px;
+    right: 10%;
+    top: 12%;
+    border: 1px yellow solid;
+    background-color: yellow;
+}
+.thongtin h3{
+    font-family: 'Acme', sans-serif;
+    padding: 5% 0%;
+    letter-spacing: 0.5vw;
+    color: #00b0ff;
+}
+.thongtin p{
+    line-height: 1.5vw;
+    word-spacing: 0.2vw;
+    letter-spacing: 0.1vw;
+}
+.thongtin a{
+    font-weight: bolder;
+    font-size: 0.9vw;
+    color: #00b0ff;
+}
+.thongtin a:hover{
+    text-decoration: underline;
+}
+.video{
+    width: 21%;
+    float: right;
+    min-height: 180px;
+    margin-right: 25%;
+    margin-top: 8%;
+    position: relative;
+}
+.demo5{
+    background-image: url(../anh/surf-4.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.gr{
+    width: 100%;
+    height: 180px;
+    left: 0px;
+    top : 0px;
+    position: absolute;
+    background-color:  rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+.tronlon{
+    width: 75px;
+    height: 75px;
+    margin-top: 18%;
+    margin-left: 35%;
+    border-radius: 50%;
+    border: 1px white solid;
+    position: absolute; 
+    z-index: 2;
+}
+.tronnho{
+    width: 50px;
+    height: 50px;
+    margin-top: 21.5%;
+    margin-left: 38.5%;
+    border-radius: 50%;
+    border: 3px white solid;
+    position: absolute; 
+    z-index: 3; 
+}
+.play{
+    width: 0;
+    height: 0;
+    border-radius: 10%;
+    border-top: 10px solid transparent;
+    border-left: 20px solid white;
+    border-bottom: 10px solid transparent;
+    position: absolute; 
+    z-index: 4; 
+    margin-left: 46%;
+    margin-top: 27.5%;
+}
+.tieude2{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5%;
+}
+.tieude2 img{
+    width: 100%;
+}
+.chinh{
+    width: 100%;
+    float: left;
+    min-height: 200px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 15%;
+}
+.nuttrai{
+    width: 5%;
+    float: left;
+    margin-left: 0%;
+    margin-top: 10%;
+    transition: 2s;
+}
+.nutphai{
+    width: 5%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 0%;
+    transition: 2s;
+}
+.member{
+    width: 80%;
+    float: left;
+    min-height: 200px;
+    margin-left: 5%; 
+    position: relative; 
+}
+.vongtron{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+.nuttrai .vongtron .nutleft i{
+    margin-left: 29%;
+    margin-top: 30%;
+    color: black;
+}
+.nutphai .vongtron .nutright i{
+    margin-left: 29%;
+    margin-top: 30%;
+    color: black;
+}
+.nuttrai:hover{
+    transform: translateX(-25px);
+}
+.nutphai:hover{
+    transform: translateX(25px);
+}
+.nuttrai:hover  .vongtron{
+    border: 1px yellow solid;
+}
+.nuttrai:hover .nutleft i{
+    color: yellow;
+}
+.nutphai:hover  .vongtron{
+    border: 1px yellow solid;
+}
+.nutphai:hover .nutright i{
+    color: yellow;
+}
+.top{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 2;
+}
+.box{
+    width: 27%;
+    float: left;
+    min-height: 180px;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 6px 7px 3px 3px #c4c2c265;
+    transition: 1s;
+}
+.ml{
+    margin-left: 24.5%;
+}
+.mg{
+    margin-right: 22%;
+}
+.mll{
+    margin-left: 21.5%;
+}
+.nd{
+    width: 80%;
+    min-height: 150px;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: center;
+    position: relative;
+}
+.avta{
+    width: 45%;
+    margin-left: 27.5%;
+    position: absolute;
+}
+.avta img{
+    width: 100%;
+}
+.ten{
+    margin-top: 50%;
+    width: 100%;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 1.1vw;
+    color: #00b0ff;
+}
+.insta{
+    margin-top: 60%;
+    width: 100%;
+    position: absolute;
+    font-size: 0.8vw;
+    color: rgb(156, 154, 154);
+}
+.trangtri{
+    margin-top: 70%;
+    width: 100%;
+    position: absolute;
+}
+.trangtri img{
+    width: 20%;
+}
+.diachi{
+    margin-top: 83%;
+    width: 100%;
+    position: absolute;
+}
+.diachi a{
+    font-size: 0.9vw;
+    font-weight: bolder;
+    color: rgb(134, 130, 130);
+}
+
+.box:hover{
+    background-color: #00b0ff;
+}
+.box:hover .ten{
+    color: black;
+}
+.tieude3{
+    width: calc(80% - 30%);
+    margin-left: 10%;
+    float: left;
+    text-align: center;
+    font-weight: bolder;
+    color: papayawhip;
+    min-height:10%;
+    position: absolute;
+    z-index: 2;
+}
+.chudoc{
+    width: 4%;
+    margin-left: 2%;
+    min-height: 400px;
+    margin-top: -2.5%;
+    position: absolute;
+}
+.chudoc img{
+    width: 100%;
+    height: 550px;
+}
+.chungang{
+    width: 40%;
+    right: 0;
+    min-height: 100px;
+    bottom: 0;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+}
+.chungang img{
+    width: 100%;
+}
+.boxthongtin{
+    width: 70%;
+    position: absolute;
+    z-index: 3;
+}
+.box1{
+    width: 28%;
+    float: left;
+    min-height: 300px;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+}
+.l{
+    margin-left: 3%;
+}
+.tieude3 a{
+    font-size: 1.7vw;
+}
+.tieude3 img{
+    width: 7%;
+}
+.boxanh{
+    width: 100%;
+    min-height: 60%;
+    position: absolute;
+    z-index: 1;
+}
+.boxanh img{
+    width: 100%;
+    height: 100%;  
+    object-fit: contain;
+}
+.boxchu{
+    width: 100%;
+    min-height: 30%;
+    margin-top: 70%;
+    color: white;
+    letter-spacing: 0.2vw;
+    position: absolute;
+    z-index: 3;
+    transition-duration: 2s;
+}
+.ttin{
+    padding: 5% 10%;
+}
+.boxchu a{
+    padding: 0 5%;
+}
+.dau{
+    width: 100%;
+    height: 59.3%;
+    left: 0px;
+    top : 0px;
+    position: absolute;
+    z-index: 2;
+    background-color:  rgba(0, 0, 0, 0.3);
+    transition-duration: 2s;
+}
+.box1:hover .dau{
+    background-color:  rgba(0, 0, 0, 0.1);
+}
+.box1:hover .boxchu{
+    background-color: white;
+    color: #00b0ff;
+    transform: translateY(-50px);
+}
+.viewbutton{
+    margin-top: 33%;
+    margin-left: 30%;
+    position: relative;
+}
+.viewbutton .nuttrai{
+    width: 5%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 13%;
+    position: absolute;
+    z-index: 2;
+    transition: 2s;
+}
+.viewbutton .vongtron{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 1px white solid;
+}
+.viewbutton .nuttrai .vongtron .nutright i{
+    margin-left: 29%;
+    margin-top: 30%;
+    color: black;
+}
+.viewbutton .vieww{
+    min-height: 31px;
+    width: 25%;
+    background-color: #00b0ff;
+    margin-left: 13%;
+    margin-top: 13%;
+    position: absolute;
+    z-index: 1;
+}
+.viewbutton .vieww .a{
+    padding: 6% 10%;
+    font-weight: bolder;
+}
+.viewbutton:hover .nuttrai{
+    transform: translateX(150px);
+}
+.viewbutton:hover .vieww a{
+    display: none;
+}
+.ndinsta{
+    width: 100%;
+    position: relative;
+    min-height: 450px;
+}
+.tenins{
+    width: 100%;
+    min-height: 60px;
+    position: absolute;
+    z-index: 1;
+}
+.tenins img{
+    width: 100%;
+}
+.tranginsta{
+    width: 100%;
+    min-height: 410px;
+    margin-top: 10%;
+    background-color: rgb(24, 11, 95);
+    position: absolute;
+    z-index: 2;
+}
+.tieude4{
+    min-height: 50px;
+    margin-top: 80%;
+    width: 100%;
+    font-weight: bolder;
+}
+.tieude4 a{
+    top: 10%;
+    left: 10%;
+    font-weight: bolder;
+    color: #00b0ff;
+}
+.tieude4 span{
+    font-size: 0.7vw;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+.khunganh{
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+}
+.boxlon{
+    width: 100%;
+    min-height: 90%;
+    background-color: darkcyan;
+    position: absolute;
+    z-index: 3;
+}
+.mar{
+    float: right;
+}
+.email{
+    width: 20%;
+    margin-left: 60%;
+    margin-top: 5%;
+    position: relative;
+}
+.email a{
+    font-weight: bolder;
+    font-size: 0.9vw;
+    color: white;
+}
+.email input[type='text']{
+    padding: 3% 7%;
+    border-radius: 5px;
+    border: 1px gray solid;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+.cuoi .nuttrai{
+    width: 5%;
+    float: left;
+    margin-left: 70%;
+    margin-top: 0%;
+    transition: 2s;
+    position: absolute;
+    z-index: 2;
+}
+.cuoi .vongtron{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 1px white solid;
+    
+}
+.cuoi .nuttrai .vongtron .nutright i{
+    margin-left: 29%;
+    margin-top: 30%;
+}
+.cuoi .nuttrai:hover{
+    transform: translateX(10px);
+    color: yellow;  
+}
+.vongtron:hover{
+    background-color: white;
+    border: 1px black solid;
+}
+.cuoi .nuttrai .vongtron .nutright i{
+    color: black;
+}
+.cuoi .chucuoi{
+    text-align: center;
+    color: white;
+    margin-left: 45%;
+    margin-top: 9%;
+    position: absolute;
+    z-index: 3;
+}
+.facebook{
+    width: 100%;
+    position: relative;
+}
+.fatren{
+    min-height: 100px;
+    width: 100%;
+    background-color: #385490;
+    margin-top: 0;
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+.fatren a{
+    padding: 2% 0;
+    font-weight: bolder;
+}
+.faduoi{
+    min-height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.home{
+    width: 70%;
+    margin-top: 12%;
+    margin-left: 12%;
+    min-height: 148px;
+    position: absolute;
+    z-index: 2;
+}
+.home img{
+    width: 110%;
+    height: 148px;
+    transition: 1.5s;
+}
+.home:hover img{
+    transform: translateY(5px);
+}
+.box2a{
+    width: 50%;
+    float: left;
+    min-height: 200px;
+    background-color: blueviolet;
+    top: 0;
+    left: 0;
+}
+.box2a{
+    background-image: url(../anh/e6aff8bbdcdee8ee58a7fb1fcab4522d.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box2b{
+    width: 50%;
+    float: left;
+    min-height: 200px;
+    background-color: thistle;
+    top: 0;
+    left: 50%;
+}
+.box2b{
+    background-image: url(../anh/jordysmith.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box2c{
+    width: 50%;
+    float: left;
+    min-height: 185px;
+    background-color: blue;
+    top: 200px;
+    left: 0;
+}
+.box2d{
+    width: 50%;
+    float: left;
+    min-height: 185px;
+    background-color: violet;
+    top: 200px;
+    left: 0;
+}
+.box2c{
+    background-image: url(../anh/surf-with-mick-key-visual.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box2d{
+    background-image: url(../anh/5dbcf050267eafd7dc917ca9bcb5ddff.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.hover{
+    width: 50%;
+    height: 200px;
+    left: 0px;
+    top : 0px;
+    position: absolute;
+    z-index: 2;
+    background-color:  rgba(0, 0, 0, 0.3);
+    transition: 2s;
+    display: none;
+}
+.box2a:hover .hover{
+    display: block;
+}
+.box2a .hinh{
+    left: 0px;
+    top: 40%;
+    width: 100%;
+    min-height: 50px;
+    position: absolute;
+    z-index: 3;
+    transition: 2s;
+    display: none;
+}
+.box2a .hinh img{
+    width: 100%;
+    min-height: 50px; 
+}
+.box2a:hover .hinh{
+    display: block;
+}
+.box2b .hover{
+    width: 50%;
+    height: 200px;
+    left: 50%;
+    top : 0px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    background-color:  rgba(0, 0, 0, 0.3);
+    transition: 2s;
+    display: none;
+}
+.box2b:hover .hover{
+    display: block;
+}
+.box2b .hinh{
+    left: 0px;
+    top: 40%;
+    width: 100%;
+    min-height: 50px;
+    position: absolute;
+    z-index: 3;
+    transition: 2s;
+    display: none;
+}
+.box2b .hinh img{
+    width: 100%;
+    min-height: 50px; 
+}
+.box2b:hover .hinh{
+    display: block;
+}
+.box2c .hover{
+    width: 50%;
+    height: 185px;
+    left: 0;
+    top : 200px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    background-color:  rgba(0, 0, 0, 0.3);
+    transition: 2s;
+    display: none;
+}
+.box2c:hover .hover{
+    display: block;
+}
+.box2c .hinh{
+    left: 0px;
+    top: 40%;
+    width: 100%;
+    min-height: 50px;
+    position: absolute;
+    z-index: 3;
+    transition: 2s;
+    display: none;
+}
+.box2c .hinh img{
+    width: 100%;
+    min-height: 50px; 
+}
+.box2c:hover .hinh{
+    display: block;
+}
+.box2d .hover{
+    width: 50%;
+    height: 185px;
+    left: 50%;
+    top : 200px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    background-color:  rgba(0, 0, 0, 0.3);
+    transition: 2s;
+    display: none;
+}
+.box2d:hover .hover{
+    display: block;
+}
+.box2d .hinh{
+    left: 0px;
+    top: 40%;
+    width: 100%;
+    min-height: 50px;
+    position: absolute;
+    z-index: 3;
+    transition: 2s;
+    display: none;
+}
+.box2d .hinh img{
+    width: 100%;
+    min-height: 50px; 
+}
+.box2d:hover .hinh{
+    display: block;
+}
+.demo6{
+    position: absolute;
+    z-index: 3;
+    text-decoration: none;
+}
+.menufixed{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    margin-top: 0;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.nuta {
+    right: 0;
+    margin-top: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.nuta {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 6vw;
+}
+@media screen and (max-width: 1000px){
+   .boxtren{
+       min-height: 400px;
+   }
+   .boxgiua{
+       min-height: 350px;
+   }
+}
